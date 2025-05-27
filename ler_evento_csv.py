@@ -32,7 +32,7 @@ plt.tight_layout()
 plt.grid(axis='y', linestyle='--', alpha=0.7)
 plt.show()
 
-# Renderiza 'Erro Aplicativo.csv'
+# Renderiza 'Erro Sistema.csv'
 plt.figure(figsize=(10, 6))
 event_counts_sistema.plot(kind='bar', color='skyblue', edgecolor='black')
 plt.title('Top 10 - Contagem por Identificação do Evento em Sistema')
